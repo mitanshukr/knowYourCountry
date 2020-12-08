@@ -114,6 +114,9 @@ span.population {
 
 #countryDetail p {
   border: 1px solid yellowgreen;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 0;
+  padding: 5px 0;
 }
 
 #countryDetail .region {
@@ -128,7 +131,10 @@ span.population {
 
 #countryDetail table {
   margin: 0 auto;
-  margin-top: 2rem;
+  margin-top: .5rem;
+  border: 1px solid yellowgreen;
+  border-radius: 0 0 5px 5px;
+  padding: 1.3rem;
 }
 
 #countryDetail table td {
@@ -140,7 +146,7 @@ span.population {
 }
 
 #countryDetail table td:nth-child(odd) {
-color: rgb(255, 179, 38);
+color: rgb(2, 21, 46);
 text-align: right;
 padding-right: 30px;
 }
@@ -186,10 +192,6 @@ padding-right: 30px;
 
   input.search::placeholder {
     font-size: 18px;
-  }
-
-  #countryDetail table {
-    border: 1px solid yellow;
   }
 
   #countryDetail .name {
