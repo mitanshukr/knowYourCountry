@@ -6,7 +6,7 @@ Use it here: https://knowyourcountryjs.netlify.app/
 ### Stacks Used:
 + HTML, CSS
 + JavaScript
-+ REST API (restcountries.eu)
++ REST API (https://restcountries.eu/)
 
 Design Credit: [#Javascript30](https://javascript30.com/)
 
