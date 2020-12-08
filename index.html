@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Know your Country 👀</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 id="title">Know your Country!</h1>
+  <form class="search-form">
+    <input type="text" class="search" placeholder="Region or Country">
+    <ul class="suggestions">
+      <li>Filter for a Region</li>
+      <li>or a Country</li>
+      <li>or Country code</li>
+    </ul>
+  </form>
+  <div id="countryDetail" class="display-none">
+    <h2 class="name">{CountryName}</h2>
+    <img class="flag" src="" alt="Flag">
+    <p>Region: <span class="region">{Region}</span></p>
+    <section id="tablebody">
+      <table>
+        <tr>
+          <td class="label">alpha2Code</td>
+          <td class="value">{alpha2Code}</td>
+          <td class="label">Population</td>
+          <td class="value">{population}</td>
+        </tr>
+        <tr>
+          <td class="label">alpha3Code</td>
+          <td class="value">{alpha3Code}</td>
+          <td class="label">Area (KM<sup>2</sup>)</td>
+          <td class="value">{area}</td>
+        </tr>
+        <tr>
+          <td class="label">Capital</td>
+          <td class="value">{capital}</td>
+          <td class="label">NativeName</td>
+          <td class="value">{nativeName}</td>
+        </tr>
+        <tr>
+          <td class="label">Currency</td>
+          <td class="value">{currencies}</td>
+          <td class="label">Languages</td>
+          <td class="value">{languages}</td>
+        </tr>
+      </table>
+    </section>
+  </div>
+  <script type="text/JavaScript" src="script.js"></script>
+</body>
+
+</html>
